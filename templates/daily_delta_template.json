@@ -1,1 +1,28 @@
-{}
+{
+  "bets": [
+    {
+      "date": "YYYY-MM-DD",
+      "time": "HH:MM",
+      "course": "",
+      "race": "",
+      "horse": "",
+      "betType": "Win",
+      "oddsTaken": 0,
+      "stakeGBP": 0,
+      "stakePoints": 0,
+      "result": "Pending",
+      "position": "",
+      "plGBP": 0,
+      "plPoints": 0,
+      "acraRating": "",
+      "reasonForBet": "",
+      "postRaceNote": ""
+    }
+  ],
+  "weeklyDashboard": [],
+  "horseWatchlist": [],
+  "trainerWatchlist": [],
+  "jockeyWatchlist": [],
+  "replayReview": [],
+  "lessonsLearned": []
+}

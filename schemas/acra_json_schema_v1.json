@@ -1,1 +1,113 @@
-{}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ACRA Google Sheet Import JSON Schema v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "bets",
+    "weeklyDashboard",
+    "horseWatchlist",
+    "trainerWatchlist",
+    "jockeyWatchlist",
+    "replayReview",
+    "lessonsLearned"
+  ],
+  "properties": {
+    "bets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "date",
+          "time",
+          "course",
+          "race",
+          "horse",
+          "betType",
+          "oddsTaken",
+          "stakeGBP",
+          "stakePoints",
+          "result",
+          "position",
+          "plGBP",
+          "plPoints",
+          "acraRating",
+          "reasonForBet",
+          "postRaceNote"
+        ],
+        "properties": {
+          "date": {
+            "type": "string"
+          },
+          "time": {
+            "type": "string"
+          },
+          "course": {
+            "type": "string"
+          },
+          "race": {
+            "type": "string"
+          },
+          "horse": {
+            "type": "string"
+          },
+          "betType": {
+            "type": "string"
+          },
+          "oddsTaken": {
+            "type": "number"
+          },
+          "stakeGBP": {
+            "type": "number"
+          },
+          "stakePoints": {
+            "type": "number"
+          },
+          "result": {
+            "type": "string"
+          },
+          "position": {
+            "type": [
+              "string",
+              "number"
+            ]
+          },
+          "plGBP": {
+            "type": "number"
+          },
+          "plPoints": {
+            "type": "number"
+          },
+          "acraRating": {
+            "type": "string"
+          },
+          "reasonForBet": {
+            "type": "string"
+          },
+          "postRaceNote": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "weeklyDashboard": {
+      "type": "array"
+    },
+    "horseWatchlist": {
+      "type": "array"
+    },
+    "trainerWatchlist": {
+      "type": "array"
+    },
+    "jockeyWatchlist": {
+      "type": "array"
+    },
+    "replayReview": {
+      "type": "array"
+    },
+    "lessonsLearned": {
+      "type": "array"
+    }
+  }
+}
