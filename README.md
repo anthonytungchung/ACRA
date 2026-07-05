@@ -16,3 +16,16 @@ Components:
 - Documentation
 
 Version: ACRA v1.0
+
+## ACRA Operating Rules
+
+Core betting discipline and lessons are stored in:
+
+- `docs/ACRA_RULEBOOK.md`
+- `docs/LESSONS_LEARNED.md`
+
+The system is based on disciplined value betting, live data checks, staking control, and post-race review.
+
+Key principle:
+
+No edge = No bet.
