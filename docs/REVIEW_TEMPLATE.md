@@ -1,4 +1,12 @@
-# ACRA Review Template v1.3
+# ACRA Review Template v1.4
+
+## 0. Watchlist / Replay Context
+
+- Horse Watchlist hit:
+- Trainer Watchlist hit:
+- Jockey Watchlist hit:
+- Replay Review hit:
+- How it affects today’s view:
 
 ## 1. Independent View
 
