@@ -282,3 +282,89 @@ Strong / Moderate / Thin / None
 
 Best Structure:
 Win-only / Win-heavy / 50-50 / Place-heavy / Pass
+
+Win Edge Allocation Rule
+
+When a runner has a genuine winning profile and the Win price is the main source of value, use Win-heavy allocation or Win-only rather than automatic 50/50.
+
+Typical trigger:
+
+Win odds 5.0+
+My % shows genuine Win edge
+Sportily does not strongly disagree
+Runner has a true winning profile
+Place odds are not especially generous
+
+Default:
+
+70% Win / 30% Place
+or
+Win-only
+
+Example: Redline, 2026-07-06.
+
+High-Place / Low-Win Conversion Rule
+
+If a horse often places but rarely wins, downgrade Win stake even if Place remains valid.
+
+Trigger:
+
+Multiple seconds / thirds
+0 wins or low win rate
+Prominent / leading but often caught
+Place rate much higher than win rate
+
+Default:
+
+30-40% Win / 60-70% Place
+or
+Place-only
+
+Example: Manoir De Mirande, 2026-07-06.
+
+Place Bet Quality Check
+
+Before Place / Top2 / Top3, calculate:
+
+Place implied probability = 1 / place odds
+
+Compare against estimated Place %.
+If edge is below around 5 percentage points, treat as thin and avoid heavy exposure.
+
+Jumping Incident Penalty
+
+For hurdles / chases, check:
+
+Fell
+Unseated
+Pulled up
+Not fluent
+Front-running pressure
+
+If present:
+
+Win stake down 0.5 level
+Place odds requirement +0.1 to +0.2
+Sportily Rank 1 Audit Rule
+
+Sportily Rank 1 is review priority only, not an automatic bet.
+
+It must still pass:
+
+Independent My %
+Sportily %
+Market implied %
+Structure audit
+Win-only vs Win/Place EV Comparison
+
+Before final bet recommendation, compare:
+
+£1 on Win EV
+vs
+£1 on Place / Top2 / Top3 EV
+
+Decision:
+
+Win EV clearly stronger => Win-heavy / Win-only
+Place EV clearly stronger => Place-heavy
+Both thin => Reduce stake / Pass
