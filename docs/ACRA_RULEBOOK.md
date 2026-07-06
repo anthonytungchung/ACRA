@@ -236,3 +236,49 @@ A winning bet can still be bad process.
 10. Log bet in Google Sheet
 11. Review result
 12. Update lessons and watchlist
+
+
+# ACRA Rulebook v1.3
+
+Effective from 2026-07-07.
+
+## Live Portfolio Rule
+
+Every confirmed bet slip must be recorded immediately in the daily Live Portfolio with race, horse, bet type, stake, odds and total exposure.
+
+Day End settlement must start from the Live Portfolio, not memory.
+
+## Race-Level vs Bet-Line Accounting
+
+ACRA must report two levels:
+
+Race Level:
+- Betting races
+- Pass races
+
+Bet-Line Level:
+- Win
+- Place
+- Top2
+- Top3
+
+Each bet line must be settled independently.
+
+## Structure Decision Gate
+
+Before recommending any bet structure, ACRA must classify the runner and compare Win edge vs Place edge.
+
+Required block:
+
+```text
+Horse Profile:
+Win Profile / Place Profile / Speculative Profile
+
+Win Edge:
+Strong / Moderate / Thin / None
+
+Place Edge:
+Strong / Moderate / Thin / None
+
+Best Structure:
+Win-only / Win-heavy / 50-50 / Place-heavy / Pass
