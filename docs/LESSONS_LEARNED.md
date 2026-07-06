@@ -206,7 +206,75 @@ Discipline reminder:
 
 - Do not force a bet in a high-profile race
 - Do not bet because analysis time has already been spent
+
+# ACRA Lessons Learned
+
+## 2026-07-06
+
+### Redline — Win Edge Allocation
+
+Redline won at Ayr after being backed Win @6.6 and Top2 @2.72.
+
+Actual result:
+
+```text
+£0.75 Win @6.6 = +£4.20
+£0.75 Top2 @2.72 = +£1.29
+Total = +£5.49
 - Do not bet just because the horse is familiar or attractive
 - No edge = No bet
 
 Status: Active
+
+If the full £1.50 had been placed Win-only:
+
+£1.50 Win @6.6 = +£8.40
+
+Difference:
+
+Win-only would have made £2.91 more.
+
+Lesson:
+
+When a runner has a genuine Win profile and Win odds are the main value source, ACRA should use Win-heavy or Win-only instead of automatic 50/50 Win+Place.
+
+Manoir De Mirande — High Place / Low Win Conversion
+
+Manoir De Mirande was not normally unreliable.
+
+Its profile was:
+
+7 runs
+0 wins
+5 places
+Place rate 71.4%
+Recent form 2323-3
+
+The correct classification is:
+
+High Place Rate / Low Win Conversion
+
+Lesson:
+
+High place-rate horses can justify Place bets, but Win stake should be reduced when win conversion is poor.
+
+Jumping Incident Penalty
+
+Manoir De Mirande had previous jumping incident history and non-finished at Roscommon.
+
+Lesson:
+
+For hurdles and chases, previous falls / jumping issues must reduce confidence in both Win and short-price Place bets.
+
+Rule change:
+
+Win stake down 0.5 level
+Place odds threshold +0.1 to +0.2
+Beat SP Is Not Enough
+
+Cloud Summit was backed at 11.5 and returned SP 8.5, but finished 6th.
+
+Lesson:
+
+Good price does not automatically mean good bet.
+Selection quality and model alignment must still pass the Review framework.
